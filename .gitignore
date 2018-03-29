@@ -1,0 +1,8 @@
+# Directories
+bin/
+obj/
+.idea/
+assets/uploads/files/
+dbscripts/
+# globs
+*.DS_Store

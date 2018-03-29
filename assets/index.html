@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Intendencia de Durazno</title>
+    <!-- Facebook Open Graph -->
+     <meta property="og:locale" content="es_ES"/>
+     <meta property="og:site_name" content="Intendencia de Durazno ha resuelto mi reclamo"/>
+     <meta property="og:title" content="Intendencia de Durazno ha resuelto mi reclamo"/>
+     <meta property="og:url" content="{imagefacebook}"/>
+     <meta property="og:type" content="website"/>
+     <meta property="og:description" content="Tu voz importa! - #tuvozimportaIDD"/>
+     <meta property="og:image" content="{imagefacebook}"/>
+     <meta property="og:image:type" content="png"/>
+     <meta property="og:image:width" content="1200"/>
+     <meta property="og:image:height" content="630"/>
+
+    <!-- Twitter Cards -->
+     <meta name="twitter:title" content="Intendencia de Durazno ha resuelto mi reclamo"/>
+     <meta name="twitter:url" content=""/>
+     <meta name="twitter:description" content="Tu voz importa! - #tuvozimportaIDD"/>
+     <meta name="twitter:image" content=""/>
+     <meta name="twitter:card" content="summary_large_image"/>
+  </head>
+  <body>
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+      body,html{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+      body{
+        background-color: #01518C;
+        font-family: 'Roboto', 'Arial', sans-serif;
+      }
+      div.contenedor{
+        width: 1200px;
+        height: 100vh;
+        /*border: 1px solid red;*/
+        margin: 0 auto;
+        display: table;
+      }
+
+      div.row{
+        vertical-align: middle;
+        display: table-cell;
+
+      }
+      div.row .full{
+        width: 100%;
+        float: left;
+        margin-bottom: 80px;
+      }
+      div.row .col-10:hover .col-5{
+        opacity: .2;
+      }
+      div.row .col-10 .col-5:hover{
+        opacity: 1;
+      }
+      div.row .col-2{
+        width: 20%;
+        float: left;
+      }
+      div.row .col-2::after,
+      div.row .col-5::after{
+        content: '';
+        clear: both;
+        display: table-cell;
+      }
+      div.row .col-5{
+        width: 45%;
+        float: left;
+        display: table;
+        opacity: 1;
+        position: relative;
+        margin-left: 10px;
+        -webkit-transition:all ease .2s;
+        transition:all ease .2s;
+      }
+
+      div.row .col-5.after:hover{
+        opacity: 1;
+      }
+
+      div.row .col-5.after{
+        border: 5px solid #FFD204;
+        height: 50vh;
+
+      }
+      div.row .col-5.before{
+          border: 5px solid #009ED9;
+          height: 50vh;
+          position: relative;
+
+      }
+      div.row .col-5 .inner{
+        width: 100%;
+        height: 100%;
+        max-height: inherit;
+        position: absolute;
+        background: #11375A;
+        text-align: center;
+        display: table;
+      }
+      div.row .col-5.after:hover,
+      div.row .col-5.before:hover{
+        box-shadow: 0 0 30px rgba(0,0,0,.4);
+      }
+      div.row .col-5 .inner .image{
+          display: table-cell;
+        max-height: 100%;
+
+        position: relative;
+        vertical-align: middle;
+      }
+      div.row .col-5 .inner .image img{
+        max-height: 100%;
+         max-width: 100%;
+         height: auto;
+         width: auto;
+         display: block;
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         box-sizing: border-box;
+         margin: auto;
+      }
+
+      div.row .col-5.before::after{
+        position: absolute;
+        left: -5px;
+        top:-55px;
+        content: 'Antes';
+        width: 100%;
+        padding: 15px 0px 15px 10px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        background: #009ED9;
+        color: white;
+
+      }
+      div.row .col-5.after::after{
+        position: absolute;
+        left: -5px;
+        top:-55px;
+        content: 'Después';
+        width: 100%;
+        padding: 15px 0px 15px 10px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        background: #FFD204;
+        color: #01518C;
+      }
+
+      div.col-10{
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+      }
+      div.clearfix{
+        clear: both;
+        display: table;
+      }
+      div.logo,
+      div.logo-voz{
+        margin-bottom: 50px;
+      }
+      div.logo-voz{
+        margin-top: 50px;
+      }
+      @media (max-width:1200px){
+        div.contenedor{
+          width:100%;
+        }
+      }
+      @media (max-width:720px){
+        div.contenedor{
+          width: 100%;
+          position: relative;
+          display: block;
+          margin-left: -20px;
+          margin-right: -20px;
+          text-align: center;
+
+        }
+        div.contenedor .row{
+          padding: 20px;
+
+        }
+        div.col-10,
+        div.col-5,
+        div.col-2{
+          width: 100% !important;
+          float: none;
+        }
+      }
+    </style>
+    <div class="contenedor">
+      <div class="row">
+        <div class="col-2 logo">
+          <img src="https://s3.amazonaws.com/iddurazno/logo/logo_fbshare.png" alt="">
+        </div>
+        <div class="col-5 logo-voz"  >
+          <img src="https://s3.amazonaws.com/iddurazno/logo/tuvozimporta_fbshare.png" alt="">
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="col-10">
+          <div class="col-5 before">
+
+            <div class="inner">
+              <div class="image">
+                <!--img src="http://www.jqueryscript.net/images/Simplest-Responsive-jQuery-Image-Lightbox-Plugin-simple-lightbox.jpg" alt=""-->
+                <img src="{variableAntes}" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-5 after">
+            <div class="inner">
+              <div class="image">
+                <!--img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Eiffel_Tower_Vertical.JPG" alt=""-->
+                 <img src="{variableDespues}" alt="">
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
